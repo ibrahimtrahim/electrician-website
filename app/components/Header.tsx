@@ -13,7 +13,7 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
     <header>
-        <div className="padding-container bg-gray-10 flex justify-end items-center py-4 3xl:px-0">
+        <div className="padding-container bg-gray-10 flex justify-end items-center py-4 3xl:px-0 z-50">
             <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap gap-10">
                 {TOP_LINKS.map((item)=>(
                     <li key={item.key} className="flex items-center justify-center relative">
@@ -22,7 +22,7 @@ const Header = () => {
                 ))}
             </ul>
         </div>
-        <nav className="padding-container flex justify-between items-center py-6 md:px-32">
+        <nav className="padding-container flex justify-between items-center py-6 md:px-32 z-50">
             <Image src='/images/logo.png' alt="logo" width={150} height={80} />
             <ul className="hidden xl:flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-5">
                 {NAV_LINKS.map((link)=>(

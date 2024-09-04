@@ -10,3 +10,30 @@ export const NAV_LINKS = [
     { href: '#projects', key: 'projects ', label: 'Projects' },
     { href: '#contact', key: 'contact ', label: 'Contact' },
   ];
+
+export const slides = [
+    {
+      image: '/images/slide1.jpg',
+      title: 'Fast Electrical services!',
+      description: 'We provide Reliable and Affordable services',
+      cta: 'Contact Us',
+    },
+    {
+      image: '/images/slide2.jpg',
+      title: 'Repair and troubleshooting!',
+      description: 'Our Professional workers will take care of it it',
+      cta: 'Contact Us',
+    },
+    {
+      image: '/images/slide3.jpg',
+      title: 'Great equipment and products!',
+      description: 'Our Professional workers will take care of it it',
+      cta: 'Contact Us',
+    },
+    {
+      image: '/images/slide4.jpg',
+      title: 'Fast Electrical services!',
+      description: 'We provide Reliable and Affordable services',
+      cta: 'Contact Us',
+    },
+  ];
