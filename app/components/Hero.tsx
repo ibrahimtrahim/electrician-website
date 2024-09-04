@@ -19,7 +19,7 @@ import { slides } from '../constant';
 
 const Hero = () => {
   return (
-    <section className="relative h-svh w-full">
+    <section className="relative h-screen w-full">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

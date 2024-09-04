@@ -22,7 +22,7 @@ const Header = () => {
                 ))}
             </ul>
         </div>
-        <nav className="padding-container flex justify-between items-center py-6 md:px-32 z-50">
+        <nav className="padding-container flex justify-between bg-white items-center py-6 md:px-32 z-50">
             <Image src='/images/logo.png' alt="logo" width={150} height={80} />
             <ul className="hidden xl:flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-5">
                 {NAV_LINKS.map((link)=>(
